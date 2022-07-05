@@ -8,8 +8,8 @@ count = 0
 for i in range(8):
     B = []
     for j in range(2):
-        x = P_X[i] - X[j]
-        y = P_Y[i] - Y[j]
+        x = X[j] - P_X[i]
+        y = Y[j] - P_Y[i]
         a = x//1
         b = y//1
         if x == a:

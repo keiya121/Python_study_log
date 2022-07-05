@@ -13,6 +13,4 @@ if 0 <= int(A[1]) < 10:
 def str_return(x):
     return str(x)
 
-B = list(map(str_return,A))
-
-print(":".join(B))
+print(":".join(map(str_return,A)))
