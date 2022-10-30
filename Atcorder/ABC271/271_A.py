@@ -8,7 +8,6 @@ for _ in range(7):
     if B == 10 + _ :
         B = chr(65+_)
 
-
 li = []
 li.append(str(A))
 li.append(str(B))

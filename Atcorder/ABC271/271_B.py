@@ -11,7 +11,5 @@ for _ in range(Q):
 #print(Li)
 #print(li)
 
-
-
 for i in range(Q):
     print(Li[li[i][0]-1][li[i][1]])
