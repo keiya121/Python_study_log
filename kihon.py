@@ -44,8 +44,26 @@ print("".join(a)) """ #joinはendでかける
 del a[2]
 print(a) """ #delは添え字で消す。
 
-for i in range(5):
-    print('{0:d} {1:4b}'.format(i,i+1))
+""" for i in range(5):
+    print('{0:d} {1:4b}'.format(i,i+1)) """
+
+
+def countup():
+    n = 0
+    while True:
+        yield n
+        n += 1
+
+abc = countup()
+for i in abc:
+    if i == 13:
+        break
+    print(i, end =" ")
+
+print(next(abc))
+
+
+
 
 
 

@@ -6,12 +6,12 @@ int cul(int a){
     return (cul(a/2) + cul(a/3));
 }
 int main(void){
-    int ans;
-    int N;
+    long long int ans;
+    long long int N;
 
-    scanf("%d",&N);
+    scanf("%lld",&N);
     ans = cul(N);
-    printf("%d",ans);
+    printf("%lld",ans);
     return 0;
 }
 
