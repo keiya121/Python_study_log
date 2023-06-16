@@ -4,4 +4,3 @@ print(S)
 
 totals = [sum(ord(char) for char in string) for string in S]
 
-print(totals)

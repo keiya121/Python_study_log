@@ -16,7 +16,7 @@ for i in range(N):
           break
      
 if flag == 0:
-    print("yes")
+    print("Yes")
 else:
      print("No")
           

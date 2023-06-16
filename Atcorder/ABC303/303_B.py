@@ -8,16 +8,13 @@ for _ in range(M):
 
 for i in range(M):
     for j in range(N-1):
-        cow = li[i][j]-1
+        line = li[i][j]-1
         row = li[i][j+1]-1
-        L[cow][row] = True
+        L[line][row] = True
 
 for i in range(N):
     for j in range(i+1,N):
         if (L[i][j] == False) and (L[j][i] == False):
             ans += 1
-
+            
 print(ans)
-print(L)
-
-

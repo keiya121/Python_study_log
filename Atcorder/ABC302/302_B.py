@@ -10,7 +10,7 @@ pos = [list((i,s.index(target_char))) for i,s in enumerate(S) if target_char in 
 print(pos)
 
 for i in range(len(pos)):
-    if S[i][pos[i][2]+1] == "n":                     #左にあるか
+    if S[i][pos[i][2]] == "n":                     #左にあるか
         print("aaa")
         break
 
